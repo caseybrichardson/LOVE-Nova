@@ -1,0 +1,18 @@
+{
+    "identifier": "dev.caseyrichardson.LoveNova",
+    "name": "LÖVE Nova",
+    "organization": "Casey Richardson",
+    "description": "LÖVE support brought to Nova",
+    "version": "1.0",
+    "categories": ["completions"],
+    "bugs": {
+        "email": "mailto:casey@deepwinter.io"
+    },
+    "main": "main.js",
+    "activationEvents": [
+        "onLanguage:lua"
+    ],
+    "entitlements": {
+        
+    }
+}
