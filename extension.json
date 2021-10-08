@@ -6,8 +6,10 @@
     "version": "1.0",
     "categories": ["completions"],
     "bugs": {
+        "url": "https://github.com/caseybrichardson/LOVE-Nova/issues",
         "email": "mailto:casey@deepwinter.io"
     },
+    "repository": "https://github.com/caseybrichardson/LOVE-Nova",
     "main": "main.js",
     "activationEvents": [
         "onLanguage:lua"
