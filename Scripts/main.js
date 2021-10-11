@@ -28,7 +28,6 @@ function taggifyResults(entries) {
         } else {
             let item = new CompletionItem(name, CompletionItemKind.Package);
             
-            
             item.detail = 'LÖVE Module'
             item.insertText = name;
             item.insertTextFormat = InsertTextFormat.PlainText;

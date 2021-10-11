@@ -716,7 +716,7 @@
       },
       "line": {
         "description": "Draws lines between points.",
-        "snippet": "})",
+        "snippet": "line(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.graphics.line",
         "name": "line"
@@ -807,14 +807,14 @@
       },
       "points": {
         "description": "Draws one or more points.",
-        "snippet": "})",
+        "snippet": "points(${1:x}, ${2:y}, ${3:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.graphics.points",
         "name": "points"
       },
       "polygon": {
         "description": "Draw a polygon.\n\nFollowing the mode argument, this function can accept multiple numeric arguments or a single table of numeric arguments. In either case the arguments are interpreted as alternating x and y coordinates of the polygon's vertices.\n\nWhen in fill mode, the polygon must be convex and simple or rendering artifacts may occur.",
-        "snippet": "})",
+        "snippet": "polygon(${1:mode}, ${2:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.graphics.polygon",
         "name": "polygon"
@@ -1163,7 +1163,7 @@
       },
       "isScancodeDown": {
         "description": "Checks whether the specified Scancodes are pressed. Not to be confused with love.keypressed or love.keyreleased.\n\nUnlike regular KeyConstants, Scancodes are keyboard layout-independent. The scancode \"w\" is used if the key in the same place as the \"w\" key on an American keyboard is pressed, no matter what the key is labelled or what the user's operating system settings are.",
-        "snippet": "})",
+        "snippet": "isScancodeDown(${1:scancode}, ${2:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.keyboard.isScancodeDown",
         "name": "isScancodeDown"
@@ -1356,7 +1356,7 @@
       },
       "isDown": {
         "description": "Checks whether a certain mouse button is down. This function does not detect mousewheel scrolling; you must use the love.wheelmoved (or love.mousepressed in version 0.9.2 and older) callback for that.",
-        "snippet": "})",
+        "snippet": "isDown(${1:button}, ${2:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.mouse.isDown",
         "name": "isDown"
@@ -1456,7 +1456,7 @@
       },
       "newChainShape": {
         "description": "Creates a new ChainShape.",
-        "snippet": "})",
+        "snippet": "newChainShape(${1:loop}, ${2:x1}, ${3:y1}, ${4:x2}, ${5:y2}, ${6:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.physics.newChainShape",
         "name": "newChainShape"
@@ -1519,7 +1519,7 @@
       },
       "newPolygonShape": {
         "description": "Creates a new PolygonShape.\n\nThis shape can have 8 vertices at most, and must form a convex shape.",
-        "snippet": "})",
+        "snippet": "newPolygonShape(${1:x1}, ${2:y1}, ${3:x2}, ${4:y2}, ${5:...})",
         "type": "function",
         "url": "https://love2d.org/wiki/love.physics.newPolygonShape",
         "name": "newPolygonShape"
